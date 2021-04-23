@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import {StyleSheet, Text, View, Button, SafeAreaView, Image, TextInput, TouchableOpacity} from 'react-native'
 //import AppLoading from 'expo-app-loading';
-import { useFonts, Asap } from '@expo-google-fonts/inter';
-import logo from '../../img/logo.jpg'
-import { color } from 'react-native-reanimated';
+//import { useFonts, Asap } from '@expo-google-fonts/inter';
+import logo from '../img/logo.jpg'
+//import { color } from 'react-native-reanimated';
 import * as Crypto from 'expo-crypto';
 
 export class Register extends Component {

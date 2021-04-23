@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import useEffect from 'react'
 import {StyleSheet, Text, View, Button, SafeAreaView, Image, TextInput, TouchableOpacity} from 'react-native';
 //import AppLoading from 'expo-app-loading';
-import { useFonts, Asap } from '@expo-google-fonts/inter';
-import logo from '../../img/logo.jpg';
-import { color } from 'react-native-reanimated';
+//import { useFonts, Asap } from '@expo-google-fonts/inter';
+import logo from '../img/logo.jpg';
+//import { color } from 'react-native-reanimated';
 import { useNavigation } from '@react-navigation/native';
 import * as Crypto from 'expo-crypto';
 
