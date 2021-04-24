@@ -25,7 +25,19 @@ export class Login extends Component {
     render() {
         return (
             <SafeAreaView style={styles.container}>
-
+<View style={{justifyContent: 'center', flex:2, flexDirection:'row',maxHeight:32}}>
+          <Button 
+            title="¿No tienes cuenta? Regístrate"
+            color="#1eb4bc"
+            onPress={() => navigation.navigate("Register")}
+          />
+          <View style= {styles.SeparatorHStyle} />
+          <Button
+            title="Inicia sesión"
+            color="#1eb4bc"
+            onPress={() => authenticate(this.state.email, this.state.password)}
+          />
+        </View>
             {/* <View style={{justifyContent: 'center', alignItems: 'center',}}>
             <Image
                 style={{
