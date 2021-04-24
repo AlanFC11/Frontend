@@ -25,7 +25,8 @@ export class Login extends Component {
     render() {
         return (
             <SafeAreaView style={styles.container}>
-            <View style={{justifyContent: 'center', alignItems: 'center',}}>
+
+            {/* <View style={{justifyContent: 'center', alignItems: 'center',}}>
             <Image
                 style={{
                 resizeMode: 'contain',
@@ -69,7 +70,7 @@ export class Login extends Component {
           <TouchableOpacity style={styles.buttons} onPress={() => navigation.navigate("Login")}>
             <Text style={{color:'#aaaaaa', fontSize:12 }}>Aviso de privacidad</Text>
             </TouchableOpacity>
-        </View>
+        </View>*/}
     </SafeAreaView>
     )
   }
